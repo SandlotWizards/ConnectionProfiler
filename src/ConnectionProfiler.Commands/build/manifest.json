@@ -1,0 +1,26 @@
+{
+  "name": "Connection Profiles Commands",
+  "entryAssembly": "ConnectionProfiles.Commands.dll",
+  "commands": [
+    {
+      "noun": "connection",
+      "verb": "add",
+      "type": "SandlotWizards.ConnectionProfiles.Commands.ConnectionAddCommand"
+    },
+    {
+      "noun": "connection",
+      "verb": "delete",
+      "type": "SandlotWizards.ConnectionProfiles.Commands.ConnectionDeleteCommand"
+    },
+    {
+      "noun": "connection",
+      "verb": "update",
+      "type": "SandlotWizards.ConnectionProfiles.Commands.ConnectionUpdateCommand"
+    },
+    {
+      "noun": "connection",
+      "verb": "list",
+      "type": "SandlotWizards.ConnectionProfiles.Commands.ConnectionListCommand"
+    }
+  ]
+}

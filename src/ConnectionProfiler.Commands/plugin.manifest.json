@@ -1,0 +1,11 @@
+{
+  "type": "commands",
+  "entryPoint": "SandlotWizards.ConnectionProfiles.Commands",
+  "compatibleWith": "lore-copilot",
+  "commands": [
+    "ConnectionProfileAddCommand",
+    "ConnectionProfileUpdateCommand",
+    "ConnectionProfileDeleteCommand",
+    "ConnectionProfileListCommand"
+  ]
+}

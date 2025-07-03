@@ -27,7 +27,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="..\build\manifest.json">
+    <None Include="build\manifest.json">
       <Pack>true</Pack>
       <PackagePath></PackagePath>
     </None>

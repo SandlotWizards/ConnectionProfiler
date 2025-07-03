@@ -5,7 +5,7 @@ using SandlotWizards.CommandLineParser.Core;
 using System;
 using System.Threading.Tasks;
 
-namespace SandlotWizards.ConnectionProfiler.Commands.Commands;
+namespace SandlotWizards.ConnectionProfiler.Commands;
 
 public class ConnectionProfileAddCommand : ICommand
 {

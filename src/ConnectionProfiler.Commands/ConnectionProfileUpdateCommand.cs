@@ -6,7 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace SandlotWizards.ConnectionProfiler.Commands.Commands;
+namespace SandlotWizards.ConnectionProfiler.Commands;
 
 public class ConnectionProfileUpdateCommand : ICommand
 {

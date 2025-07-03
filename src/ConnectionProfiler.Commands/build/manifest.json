@@ -5,22 +5,22 @@
     {
       "noun": "connection-profile",
       "verb": "add",
-      "type": "SandlotWizards.ConnectionProfiler.Commands.ConnectionAddCommand"
+      "type": "SandlotWizards.ConnectionProfiler.Commands.ConnectionProfileAddCommand"
     },
     {
       "noun": "connection-profile",
       "verb": "delete",
-      "type": "SandlotWizards.ConnectionProfiler.Commands.ConnectionDeleteCommand"
+      "type": "SandlotWizards.ConnectionProfiler.Commands.ConnectionProfileDeleteCommand"
     },
     {
       "noun": "connection-profile",
       "verb": "update",
-      "type": "SandlotWizards.ConnectionProfiler.Commands.ConnectionUpdateCommand"
+      "type": "SandlotWizards.ConnectionProfiler.Commands.ConnectionProfileUpdateCommand"
     },
     {
       "noun": "connection-profile",
       "verb": "list",
-      "type": "SandlotWizards.ConnectionProfiler.Commands.ConnectionListCommand"
+      "type": "SandlotWizards.ConnectionProfiler.Commands.ConnectionProfileListCommand"
     }
   ]
 }

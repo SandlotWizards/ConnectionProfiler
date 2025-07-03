@@ -7,7 +7,7 @@
     <BuildOutputTargetFolder></BuildOutputTargetFolder>
     <PackageId>SandlotWizards.ConnectionProfiler.Commands</PackageId>
     <RootNamespace>SandlotWizards.ConnectionProfiler.Commands</RootNamespace>
-    <Version>1.1.0</Version>
+    <Version>1.2.0</Version>
     <Authors>Sandlot Wizards</Authors>
     <Company>Sandlot Wizards</Company>
     <Description>CLI command package for managing connection profiles. Compatible with Lore Copilot.</Description>
@@ -27,7 +27,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="build\manifest.json" Pack="true" />
+    <None Include="..\build\manifest.json">
+      <Pack>true</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
